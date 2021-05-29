@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Javascript Quiz</title>
+  </head>
+  <body>
+    <div class="quiz">
+      <div class="signUp">
+          <form>
+              <ul>
+                
+                  <input type="text" name= "firstName" id ="fName" placeholder = "Enter Your First Initial/Name"> </ul>
+                <ul> <input type="text" name = "lastName" id= "lName" placeholder = "Enter your last Last Initial/Name"></ul>
+  <!-- In future the test could be advanced to host multiple tests based on the user Level -->
+                  Select your level <br>
+                  <input type="checkbox" name = "beginner" id ="beginner">beginner
+                  <input type="checkbox" name = "intermediary" id ="intermediary">intermediary
+                  <input type="checkbox" name = "expert" id ="expert">expert
+                  <br>
+                  <button id="signUp"> Register </button>
+                  <!-- <button id="signUp"> start quiz ▶</button> -->
+              </ul>
+          </form>
+      </div>
+      <div id = "registered">
+        <h2> Registered User:</h2>
+        <p><strong>FirstName</strong> <span id="user-fName"></span></p>
+        <p><strong>LastName:</strong> <span id="user-lName"></span></p>
+        <button  id="open" style="display: none;">start quiz ▶</button>
+      </div>
+    
+    <div id="mssg"></div>
+    <div id="instructions"></div>
+    <button id="sign-up"  onclick="(this.parentNode.value);"></button>
+    <h3 class="message"></h3> 
+      <!-- <div class="instructions"></div> -->
+      <div class="start"></div>
+      <h2 id="Quizquestion"></h2>
+      <h1 class="time" style="text-align:right;"></h1>
+      <h1 id="selection" style="text-align: center;"></h1>
+      <div id="main">
+     
+        <div id="choices">
+            <button class="choice" id="A" onclick="checkAnswer('A')"></button>
+            <button class="choice" id="B" onclick="checkAnswer('B')"></button>
+            <button class="choice" id="C" onclick="checkAnswer('C')"></button>
+            <button class="choice" id ="D" onclick="checkAnswer ('D')"></button>
+        </div>
+        <div id="progress"></div>
+      </div>
+
+    </div>
+
+        <script src="./js/script.js"></script>
+</body>
+</html>
