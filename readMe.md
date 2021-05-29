@@ -1,5 +1,7 @@
 Javascript Quiz Task
 
+Deployment Link : https://gihts024.github.io/Homework4_AK/
+
 It is deployed in Javascript, CSS and HTML
 
 This is a quiz for javascript. It is intended to have the following features:
