@@ -13,7 +13,7 @@ The user is quized within the time frame set up.
 
 Future development
 
-The quiz is set for the exact user. In future, the quiz should test user based on level of competenct
+The quiz is set for the exact user. In future, the quiz should test user based on level of competence
 this could be a begginer, intermediate or expert level. 
 
 
